@@ -32,3 +32,28 @@ public class Main {
     }
 }
 
+// Class untuk Car (mobil)
+class Car {
+    private String brand;
+    private String model;
+    private int year;
+
+    // Constructor
+    public Car(String brand, String model, int year) {
+        this.brand = brand;
+        this.model = model;
+        this.year = year;
+    }
+
+    // Method getter dan setter
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getModel() {
+        return model;
+    }

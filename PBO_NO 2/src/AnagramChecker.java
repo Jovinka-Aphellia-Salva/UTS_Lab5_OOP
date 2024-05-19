@@ -11,13 +11,5 @@ public class AnagramChecker {
             return false;
         }
 
-        // Mengonversi string menjadi char array dan mengurutkannya
-        char[] charArray1 = str1.toCharArray();
-        char[] charArray2 = str2.toCharArray();
-        Arrays.sort(charArray1);
-        Arrays.sort(charArray2);
-
-        // Membandingkan char array yang telah diurutkan
-        return Arrays.equals(charArray1, charArray2);
-    }
+        
 }
